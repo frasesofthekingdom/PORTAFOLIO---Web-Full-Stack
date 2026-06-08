@@ -242,8 +242,7 @@ const Home = () => {
             <div>
               <h3 style={{ marginBottom: '0.5rem' }}>Baterista en la iglesia</h3>
               <p className="about-text">
-                Uso la batería como instrumento para adorar a Dios. La música es mi segunda pasión después del código,
-                y me permite conectar con lo espiritual mientras sirvo a mi comunidad.
+                Uso la batería como instrumento para adorar a Dios.
               </p>
             </div>
           </div>
