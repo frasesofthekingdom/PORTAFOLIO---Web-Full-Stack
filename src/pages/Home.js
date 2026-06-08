@@ -129,7 +129,7 @@ const Home = () => {
             </div>
             <div className="project-info">
               <span className="project-tech">React</span>
-              <h3 className="project-title">Portfolio Profesional</h3>
+              <h3 className="project-title">Portafolio Profesional</h3>
               <p className="project-desc">
                 Portfolio personal desarrollado con React. Incluye modo oscuro/claro, 
                 menú hamburguesa responsive y diseño moderno.
