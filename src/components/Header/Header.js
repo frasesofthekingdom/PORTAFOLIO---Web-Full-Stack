@@ -33,10 +33,10 @@ const Header = () => {
         </button>
 
         <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
-          <a onClick={() => scrollToSection('about')}>Sobre mí</a>
-          <a onClick={() => scrollToSection('projects')}>Proyectos</a>
-          <a onClick={() => scrollToSection('skills')}>Habilidades</a>
-          <a onClick={() => scrollToSection('contact')}>Contacto</a>
+          <button onClick={() => scrollToSection('about')} className="nav-link-btn">Sobre mí</button>
+          <button onClick={() => scrollToSection('projects')} className="nav-link-btn">Proyectos</button>
+          <button onClick={() => scrollToSection('skills')} className="nav-link-btn">Habilidades</button>
+          <button onClick={() => scrollToSection('contact')} className="nav-link-btn">Contacto</button>
           <button className="theme-toggle" onClick={toggleTheme}>
             {theme === 'light' ? '🌙' : '☀️'}
           </button>
